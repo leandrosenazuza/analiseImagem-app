@@ -4,7 +4,7 @@
 <div [ngClass]="isHomePage ? 'content' : 'content page-full'">
   <section class="container__router">
     <section *ngIf="isHomePage" class="container__navbar">
-      <app-navbar></app-navbar>
+      <app-sidebar></app-sidebar>
       <app-card></app-card>
     </section>
     <router-outlet></router-outlet>

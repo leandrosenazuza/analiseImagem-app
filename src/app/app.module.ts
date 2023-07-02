@@ -9,7 +9,7 @@ import { CardComponent } from './core/component/card/card.component';
 @NgModule({
   declarations: [
     AppComponent,
-    CardComponent
+    CardComponent,
   ],
   imports: [
     BrowserModule,

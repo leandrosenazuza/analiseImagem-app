@@ -1,34 +1,25 @@
 <div class="container__header">
   <div class="container__header__content">
-          <section class="container__header__content__left d-flex">
-            <div>
-              <img alt="logo" src=".\assets\images\pc.png" />
-            </div>
-            <div class="container__header__content__left__title">
-              <h1>{{ titulo }}</h1>
-              <a>{{ sub }}</a>
-            </div>
-          </section>
-          <section class="container__header__content__right d-flex mt-2">
-            <a>INSERIR INFO</a>
-          </section>
+    <section class="container__header__content__left d-flex">
+      <div>
+        <img alt="logo" src=".\assets\images\pc.png" />
+      </div>
+      <div class="container__header__content__left__title">
+        <h1>{{ titulo }}</h1>
+        <a>{{ sub }}</a>
+      </div>
+    </section>
+    <section class="container__header__content__right d-flex mt-2">
+      <div class="container__header__content__right__top">
+        <h1>Faculdade de Engenharia Elétrica - FEELT</h1>
+        <p>Laboratório Computação Gráfica</p>
+      </div>
+      <div class="container__header__navbar">
+        <div [routerLink]="option.router" *ngFor="let option of navBarOptions">
+          <i class="{{ option.icon }}" aria-hidden="true"></i>
+          <a>{{ option.label }}</a>
+        </div>
+      </div>
+    </section>
+  </div>
 </div>
-<div class="container__header__navbar">
-
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
