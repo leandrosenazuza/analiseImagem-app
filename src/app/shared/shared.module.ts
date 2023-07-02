@@ -10,6 +10,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { SidebarComponent } from "../core/component/sidebar/sidebar.component";
+import {MatListModule} from '@angular/material/list';
 
 @NgModule({
   imports: [
@@ -22,6 +23,9 @@ import { SidebarComponent } from "../core/component/sidebar/sidebar.component";
     MatButtonModule,
     MatIconModule,
     MatSidenavModule,
+    MatListModule,
+    MatButtonModule
+
   ],
   declarations: [
     FooterComponent,

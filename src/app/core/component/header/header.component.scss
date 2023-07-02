@@ -2,7 +2,7 @@
   padding: 10px 0px;
   background-color: #222252;
   height: 125px;
-  color: #dadbeb;
+  color: #f8f8fa;
   border-bottom: 10px solid #cccddb;
   border-radius: 15px;
   font-family: "Audiowide", sans-serif;
@@ -18,7 +18,7 @@
     }
 
     a {
-      color: #edeef5;
+      color: #f8f8fa;
       text-decoration: none;
       font-size: 23px;
       font-weight: bold;
@@ -33,7 +33,7 @@
       position: relative;
 
       h1 {
-        color: #edeef5;
+        color: #f8f8fa;
         text-decoration: none;
         font-size: 23px;
         font-weight: bold;
@@ -42,7 +42,7 @@
       }
 
       p {
-        color: #edeef5;
+        color: #f8f8fa;
         text-decoration: none;
         font-size: 15px;
         font-weight: bold;
@@ -85,6 +85,7 @@
 
         i {
             font-size: 20px;
+            color: #ebff3b;
 
         }
 
@@ -98,12 +99,13 @@
             a, i {
                 transition: 0.8;
                 opacity: 0.8;
+                color: #b60ee9;
             }
         }
 
         &:active {
             a, i {
-                color: #eef5f9;
+                color: #ca854c;
             }
         }
 

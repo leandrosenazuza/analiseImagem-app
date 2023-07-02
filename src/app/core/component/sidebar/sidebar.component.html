@@ -1,1 +1,25 @@
-<p>sidebar works!</p>
+<mat-toolbar color="primary">
+    <mat-toolbar>
+        <span>Row1 title</span>
+        <mat-toolbar-row>
+            <button mat-icon-button>
+              <mat-icon (click)="sidenav.toggle();">menu</mat-icon>
+            </button>
+        </mat-toolbar-row>
+    </mat-toolbar>
+</mat-toolbar>
+<mat-sidenav-container>
+    <mat-sidenav #sidenav>
+        <mat-nav-list>
+              <mat-list-item *ngFor="let item of items">
+                  {{item}}
+              </mat-list-item>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <div style="height: 88vh;"></div>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+
+
+oie
