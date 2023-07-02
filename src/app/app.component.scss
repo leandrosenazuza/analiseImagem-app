@@ -1,0 +1,17 @@
+.content {
+  display: flex;
+  min-height: calc(100vh - 280px);
+  justify-content: center;
+
+}
+
+.page-full {
+  height: 100vh !important;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+}
+
+
