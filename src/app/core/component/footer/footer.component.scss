@@ -1,0 +1,25 @@
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0c6b7c;
+  color: #feffd6;
+  padding: 20px;
+}
+
+.footer mat-card {
+  display: flex;
+  align-items: center;
+}
+
+.footer .card-content {
+  display: flex;
+  align-items: center;
+}
+
+.footer mat-card-content {
+  margin-left: 20px;
+}
