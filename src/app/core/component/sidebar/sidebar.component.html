@@ -1,7 +1,7 @@
 <div class="container__sidebar">
     <div [routerLink]="option.router" *ngFor="let option of menuOption">
       <div class="list-group">
-        <a href="#" class="list-group-item list-group-item-action active">
+        <a class="list-group-item list-group-item-action active">
           <div class="option">
             <!--<i class="{{ option.icon }}" aria-hidden="true"></i>-->
             <a mat-button type="button">{{ option.label }}</a>

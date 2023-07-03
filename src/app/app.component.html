@@ -1,17 +1,16 @@
 <div *ngIf="!isPageNotFound" class="mb-3">
   <app-header></app-header>
 </div>
-<div [ngClass]="isHomePage ? 'content' : 'content page-full'">
+<div class="content">
   <section class="container__router">
-    <section *ngIf="isHomePage" class="container__footer__content">
       <div class="row">
+        <div class="col">
           <app-sidebar></app-sidebar>
-          <app-card></app-card>
+        </div>
+        <div class="col">
+          <router-outlet></router-outlet>
+        </div>
       </div>
-    </section>
-    <router-outlet></router-outlet>
   </section>
 </div>
-<div *ngIf="isHomePage && !isPageNotFound" class="footer">
   <app-footer></app-footer>
-</div>

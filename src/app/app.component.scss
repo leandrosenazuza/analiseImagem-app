@@ -2,8 +2,6 @@
   display: flex;
   justify-content: left;
   height: 100%;
-
-
 }
 
 .page-full {
@@ -18,6 +16,10 @@
 
 .row {
   display: flex;
+}
+
+.container__router{
+ min-height: 700px;
 }
 
 

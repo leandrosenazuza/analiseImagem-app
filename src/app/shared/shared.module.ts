@@ -11,7 +11,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { SidebarComponent } from "../core/component/sidebar/sidebar.component";
 import {MatListModule} from '@angular/material/list';
-import { CardComponent } from "../core/component/card/card.component";
+import { CardComponent } from "../module/funcionalidades/card/card.component";
 
 @NgModule({
   imports: [
