@@ -3,18 +3,18 @@
   background-color: #222252;
   height: 125px;
   color: #f8f8fa;
-  border-bottom: 2px solid #cccddb;
-  border-radius: 5px;
-  margin-top: -10px;
+  border-radius: 2px;
   font-family: "Audiowide", sans-serif;
   &__content {
     display: flex;
     justify-content: space-between;
 
+
     h1 {
       margin: 7px 0 3px;
       font-size: 18px;
       font-weight: bold;
+
 
     }
 
@@ -33,6 +33,7 @@
       padding: 0 20px;
       position: relative;
 
+
       h1 {
         color: #f8f8fa;
         text-decoration: none;
@@ -48,6 +49,7 @@
         font-size: 15px;
         font-weight: bold;
       }
+
 
     }
 

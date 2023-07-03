@@ -1,11 +1,11 @@
 html {
-  min-height: 100%; /* Look, it's not fixed anymore! */
-
+  min-height: 400px;
   display: flex;
   flex-direction: column;
 }
 
 body {
   flex-grow: 1;
+  margin: 0px;
 }
 

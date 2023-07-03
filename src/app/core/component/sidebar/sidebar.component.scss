@@ -4,7 +4,7 @@
   color: #2d2d35;
   border-radius: 2px;
   display: flex;
-  width: 400px;
+  width: 500px;
   display: flex;
   flex-direction: column;
   font-size: x-large;
@@ -13,9 +13,13 @@
   font-family: "Audiowide", sans-serif;
 
 
+
+
   .option{
+    background-color: #9197a8;
     border: 1px solid;
-    padding: 10px 10px;
+    border-style: groove;
+    padding: 20px 20px;
     justify-content: space-between;
     font-size: 30px;
     font-weight: bold;
