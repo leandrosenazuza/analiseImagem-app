@@ -11,6 +11,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { SidebarComponent } from "../core/component/sidebar/sidebar.component";
 import {MatListModule} from '@angular/material/list';
+import { CardComponent } from "../core/component/card/card.component";
 
 @NgModule({
   imports: [
@@ -31,12 +32,14 @@ import {MatListModule} from '@angular/material/list';
     FooterComponent,
     HeaderComponent,
     SidebarComponent,
+    CardComponent
 
   ],
   exports: [
     FooterComponent,
     HeaderComponent,
     SidebarComponent,
+    CardComponent
   ],
   providers: [
   ],

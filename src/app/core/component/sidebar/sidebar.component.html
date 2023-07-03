@@ -1,25 +1,14 @@
-<mat-toolbar color="primary">
-    <mat-toolbar>
-        <span>Row1 title</span>
-        <mat-toolbar-row>
-            <button mat-icon-button>
-              <mat-icon (click)="sidenav.toggle();">menu</mat-icon>
-            </button>
-        </mat-toolbar-row>
-    </mat-toolbar>
-</mat-toolbar>
-<mat-sidenav-container>
-    <mat-sidenav #sidenav>
-        <mat-nav-list>
-              <mat-list-item *ngFor="let item of items">
-                  {{item}}
-              </mat-list-item>
-        </mat-nav-list>
-    </mat-sidenav>
-    <mat-sidenav-content>
-      <div style="height: 88vh;"></div>
-    </mat-sidenav-content>
-</mat-sidenav-container>
+<div class="container__sidebar">
+    <div [routerLink]="option.router" *ngFor="let option of menuOption">
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action active">
+          <div class="option">
+            <!--<i class="{{ option.icon }}" aria-hidden="true"></i>-->
+            <a>{{ option.label }}</a>
+          </div>
 
+        </a>
+      </div>
+  </div>
+</div>
 
-oie

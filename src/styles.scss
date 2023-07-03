@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  min-height: 100%; /* Look, it's not fixed anymore! */
+
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  flex-grow: 1;
+}
+

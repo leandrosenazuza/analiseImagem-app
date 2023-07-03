@@ -1,10 +1,42 @@
-.container{
-  align-items: left;
-  padding: 10px 0px;
-  background-color: #222252;
-  height: 125px;
-  color: #dadbeb;
-  border-bottom: 10px solid #cccddb;
-  border-radius: 15px;
+.container__sidebar {
+  background-color: #d0d0d6;
+  height: 100%;
+  color: #2d2d35;
+  border-radius: 2px;
+  display: flex;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  font-size: x-large;
+  text-align: center;
+  font-weight: bolder;
   font-family: "Audiowide", sans-serif;
+
+
+  .option{
+    border: 1px solid;
+    padding: 10px 10px;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: bold;
+
+
+    &:hover {
+      a, i {
+          transition: 0.8;
+          opacity: 0.8;
+          color: #85aa00;
+
+      }
+  }
+
+  &:active {
+      a, i {
+          color: #67d30e;
+      }
+  }
+  }
+
 }
+
+
