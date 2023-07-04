@@ -1,8 +1,8 @@
-.container {
+.container__card {
 
   background-color: #ffffff;
-  height: 1000px;
-  width: 800px;
+  height: 100%;
+  width: 100%;
 
   color: #353747;
   font-family: "Audiowide", sans-serif;
@@ -12,5 +12,3 @@
   display: flex;
   flex-flow: column;
 }
-
-
