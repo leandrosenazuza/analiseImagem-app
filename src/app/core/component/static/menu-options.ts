@@ -21,6 +21,11 @@ export const MenuOptions =
       label: 'Previsao',
       router: '/previsao'
   },
+  {
+    icon: 'fa fa-headphones',
+    label: 'Contagem de Veículos',
+    router: '/counting'
+    },
     {
         icon: 'fa fa-file-text',
         label: 'Sobre os Autores',

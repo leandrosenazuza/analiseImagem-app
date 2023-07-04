@@ -1,0 +1,94 @@
+<div class="contagemveiculos ">
+
+  <head>
+    <title>Análise de Imagem - Contagem de Veículos</title>
+  </head>
+  <body>
+    <h1> Fazendo Contagem do Tráfego de Veículos</h1>
+    <p> Principal objetivo desse projeto é realizar a contagem de veículos em ruas e avenidas através de visão computacional, e através desses gerar dados
+      para futuras Análises
+    </p>
+    <h2><b>Localização</b></h2>
+    <p> O Trecho escolhido para teste foi o cruzamento da Av. Rondon Pacheco com a rua Mario Rezende Ribeiro</p>
+    <img  src=".\assets\images\rondon-map.png" />
+    <h2><b>Equipamentos</b></h2>
+    <p>Para analisar o tráfego de veículos, foi usado um Drone Dji mini 2, O mesmo sobrevoou a área em questão fazendo diversos vídeos do trânsito local.</p>
+    <img  src=".\assets\images\drone.jpg" height="10%" />
+    <h2><b> Primeira aboragem - Tratamento das Imagens </b></h2>
+
+      <p>Primeira abordagem consistiu em fazer o tratamento das imagens de vídeo de forma que fosse filtrado somente os carros na imagem</p>
+      <p>Para essa abordagem seria usado alguns recursos da biblioteca OpenCV</p>
+      <p><img src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_black-2.png" width="10%"/></p>  
+      
+      <p> OpenCV (Open Source Computer Vision Library) é uma biblioteca de visão computacional e processamento de imagens de código aberto. 
+      Ela oferece um conjunto abrangente de funções e algoritmos que permitem que desenvolvedores e pesquisadores trabalhem com imagens 
+      e vídeos de forma eficiente. </p>
+      <p> Sobre o vídeo foi aplicado uma Máscara, filtrando as partes em movimento na imagem. Essas em questão ficariam todas brancas e então recortadas e contadas</p>
+
+      <p> Na figura abaixo vemos essa técnica sendo aplicada para um vídeo da internet</p>
+      <img  src=".\assets\images\pycharm.jpg" height="10%" />
+      <p> Na figura abaixo vemos essa técnica sendo aplicada a gravação feita com o Drone</p>
+      <img  src=".\assets\images\contagem_opencv.png" height="10%" />
+      <p> Como podemos obervar, devido a alguns fatores de iluminação essa técnica não foi ideal para o caso em questão</p>
+
+      <h2><b> Segunda aboragem - Utilização da Algoritmo "You Only Look Once" Você Só Olha uma Vez </b></h2>  
+
+
+      <p><a href="https://pjreddie.com/darknet/yolo/">YOLO</a> é uma sigla para "You Only Look Once" (Você Só Olha uma Vez, em tradução livre) e refere-se a um algoritmo de
+        detecção de objetos em imagens e vídeos. O YOLO é um dos métodos mais populares e eficientes para detecção em tempo
+        real, pois é capaz de localizar e classificar
+        objetos em uma única passagem pela imagem, em vez de precisar de várias iterações.</p>
+      
+      <p>A abordagem do YOLO é baseada em uma rede neural convolucional (CNN) que divide a imagem em uma grade e, para cada
+        célula dessa grade, prevê caixas delimitadoras que envolvem objetos e as probabilidades de classes associadas a essas
+        caixas delimitadoras.
+        Isso significa que o YOLO é capaz de detectar vários objetos em uma única imagem e atribuir a eles as respectivas
+        classes.</p>
+        <img src="https://pjreddie.com/media/image/Screen_Shot_2018-03-24_at_10.48.42_PM.png" width="40%"/>
+        <img src="https://miro.medium.com/v2/resize:fit:720/1*IdschTYLF7umxjdtnIoVdw.gif" />
+        <p>
+          Os pesos pré-treinados do YOLO se referem aos parâmetros aprendidos por uma rede neural convolucional (CNN) treinada com
+          um conjunto de dados específico, como o COCO (Common Objects in Context), que contém várias classes de objetos. Esses
+          pesos pré-treinados são usados como ponto de partida para a detecção de objetos em novas imagens ou vídeos.
+        </p>
+        <p>Próximo passo consiste em fazer o uso de exemplos em domínio público e ver se atendem a necessidade</p>
+        <dl>
+          <dt><strong>YOLOv3-Vehicle-Counting</strong></dt>
+          <dd>
+            <p><strong>Descrição:</strong> Este repositório contém um projeto de contagem de veículos usando o YOLOv3 em Python. Ele inclui o código-fonte, conjuntos de dados e instruções para treinamento e teste.</p>
+            <p><strong>Linguagem:</strong> Python</p>
+            <p><strong>Última atualização:</strong> Setembro de 2021</p>
+          </dd>
+        </dl>
+        <dl>
+          <dt><strong>Vehicle-Counting-Using-YOLOv3</strong></dt>
+          <dd>
+            <p><strong>Descrição:</strong> Neste repositório, você encontrará um projeto que utiliza o YOLOv3 para contar veículos em vídeos. O projeto inclui scripts em Python para detecção, rastreamento e contagem de veículos.</p>
+            <p><strong>Linguagem:</strong> Python</p>
+            <p><strong>Última atualização:</strong> Março de 2023</p>
+          </dd>
+        </dl>
+        <dl>
+          <dt><strong>YOLOv4-Vehicle-Counting</strong></dt>
+          <dd>
+            <p><strong>Descrição:</strong> Este repositório contém um projeto de contagem de veículos usando o YOLOv4 em Python. Ele inclui o código-fonte, conjuntos de dados e instruções para treinamento e teste.</p>
+            <p><strong>Linguagem:</strong> Python</p>
+            <p><strong>Última atualização:</strong> Maio de 2022</p>
+          </dd>
+        </dl>
+        <dl>
+          <dt><strong>Traffic-Counter-YOLO</strong></dt>
+          <dd>
+            <p><strong>Descrição:</strong> Neste repositório, você encontrará um projeto que utiliza o YOLO para contar veículos em imagens e vídeos. Ele inclui o código-fonte em Python e modelos pré-treinados para detecção e contagem de veículos.</p>
+            <p><strong>Linguagem:</strong> Python</p>
+            <p><strong>Última atualização:</strong> Agosto de 2021</p>
+          </dd>
+        </dl>
+        <dl>
+          <dt><strong>YOLOv3-Vehicle-Detection-And-Tracking</strong></dt>
+          <dd>
+            <p><strong>Descrição:</strong> Este repositório contém um projeto que utiliza o YOLOv3 para detecção e rastreamento de veículos em vídeos. Ele também inclui funcionalidades de contagem de veículos.</p>
+            <p><strong>Linguagem:</strong> Python</p>
+            <p><strong>Última atualização:</strong> Julho de 2022</p>
+          </dd>
+        </dl>

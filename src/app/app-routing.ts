@@ -5,6 +5,7 @@ import { AnaliseArquivoComponent } from "./module/funcionalidades/analise-arquiv
 import { SobreProjetoComponent } from "./module/funcionalidades/sobre-projeto/sobre-projeto.component";
 import { ModuleWithProviders } from "@angular/core";
 import { CardComponent } from "./module/funcionalidades/card/card.component";
+import { ContagemVeiculosComponent } from "./module/funcionalidades/contagem-veiculos/contagem-veiculos.component";
 
 const APP_ROUTES: Routes = [
   {
@@ -21,6 +22,9 @@ const APP_ROUTES: Routes = [
   },
   {
     path: 'sobre', component: SobreProjetoComponent
+  },
+  {
+    path: 'counting', component: ContagemVeiculosComponent
   },
   {
     path: 'card', component: CardComponent
