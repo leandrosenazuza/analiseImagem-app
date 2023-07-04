@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { productSales, cor } from '../../data/data';
+import { productSales, productSalesMulti } from '../../data/data2';
 
 @Component({
-  selector: 'app-grafico-card',
-  templateUrl: './grafico-card.component.html',
-  styleUrls: ['./grafico-card.component.scss']
+  selector: 'app-grafico-pie',
+  templateUrl: './grafico-pie.component.html',
+  styleUrls: ['./grafico-pie.component.scss']
 })
-export class GraficoCardComponent {
+export class GraficoPieComponent  {
 
   productSales: any[] = [];
   productSalesMulti: any[] = [];
@@ -23,10 +23,10 @@ export class GraficoCardComponent {
   legendPosition: string = 'below';
 
   colorScheme = {
-    domain: ['#704FC4', '#4B852C', '#B67A3D', '#5B6FC8', '#25706F']
+    domain: ['#fffff', '#4B852C', '#B67A3D', '#5B6FC8', '#25706F']
   };
 
-  constructor() { Object.assign(this, { productSales, cor }) }
+  constructor() { Object.assign(this, { productSales, productSalesMulti }) }
 
   ngOnInit(): void {
   }

@@ -14,6 +14,8 @@ import { SobreProjetoComponent } from './module/funcionalidades/sobre-projeto/so
 import { routing } from './app-routing';
 import { GraficoBarraComponent } from './module/funcionalidades/dashboard/graficos/grafico-barra/grafico-barra.component';
 import { GraficoCardComponent } from './module/funcionalidades/dashboard/graficos/grafico-card/grafico-card.component';
+import { GraficoPieComponent } from './module/funcionalidades/dashboard/graficos/grafico-pie/grafico-pie.component';
+import { GraficoVelocidadeComponent } from './module/funcionalidades/dashboard/grafico-velocidade/grafico-velocidade.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { GraficoCardComponent } from './module/funcionalidades/dashboard/grafico
     SobreProjetoComponent,
     GraficoBarraComponent,
     GraficoCardComponent,
+    GraficoPieComponent,
+    GraficoVelocidadeComponent,
 
 
 

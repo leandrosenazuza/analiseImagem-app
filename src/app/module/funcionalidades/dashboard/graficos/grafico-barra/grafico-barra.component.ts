@@ -14,16 +14,16 @@ export class GraficoBarraComponent {
   view: any[] = [700, 370];
 
   // options
-  legendTitle: string = 'Products';
-  legendTitleMulti: string = 'Months';
+  legendTitle: string = 'Quantidade';
+  legendTitleMulti: string = 'Mês';
   legendPosition: string = 'below'; // ['right', 'below']
   legend: boolean = true;
 
   xAxis: boolean = true;
   yAxis: boolean = true;
 
-  yAxisLabel: string = 'Sales';
-  xAxisLabel: string = 'Products';
+  yAxisLabel: string = 'Tipo de Veículo';
+  xAxisLabel: string = 'Quantidade';
   showXAxisLabel: boolean = true;
   showYAxisLabel: boolean = true;
 
@@ -34,7 +34,7 @@ export class GraficoBarraComponent {
   rotateXAxisTicks: boolean = false;
 
   xAxisTicks: any[] = ['Genre 1', 'Genre 2', 'Genre 3', 'Genre 4', 'Genre 5', 'Genre 6', 'Genre 7']
-  yAxisTicks: any[] = [100, 1000, 2000, 5000, 7000, 10000]
+  yAxisTicks: any[] = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 
   animations: boolean = true; // animations on load
 

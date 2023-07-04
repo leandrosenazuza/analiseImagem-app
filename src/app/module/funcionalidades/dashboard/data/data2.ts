@@ -1,13 +1,13 @@
 export var productSales = [
   {
-    "name": "Carro",
-    "value": 10
+    "name": "branco",
+    "value": 101
   }, {
-    "name": "Moto",
-    "value": 16
+    "name": "preto",
+    "value": 83
   }, {
-    "name": "Ônibus",
-    "value": 1
+    "name": "vermelho",
+    "value": 22
   }
 ];
 
@@ -18,13 +18,13 @@ export var productSalesMulti = [
     "series": [
       {
         "name": "January",
-        "value": 125
+        "value": 10
       }, {
         "name": "February",
-        "value": 197
+        "value": 20
       }, {
         "name": "March",
-        "value": 209
+        "value": 30
       }
     ]
   }, {

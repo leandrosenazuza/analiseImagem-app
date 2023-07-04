@@ -1,14 +1,23 @@
 export var productSales = [
   {
-    "name": "Carro",
+    "name": "objeto1",
     "value": 10
   }, {
-    "name": "Moto",
-    "value": 16
+    "name": "objeto2",
+    "value": 32
   }, {
-    "name": "Ônibus",
-    "value": 1
+    "name": "objeto3",
+    "value": 45
+  },
+  {
+    "name": "objeto4",
+    "value": 80
+  },
+  {
+    "name": "objeto5",
+    "value": 16
   }
+
 ];
 
 
