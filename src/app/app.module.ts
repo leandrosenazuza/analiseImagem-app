@@ -21,12 +21,14 @@ import { routing } from './app-routing';
     SobreProjetoComponent,
 
 
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     routing,
-    SharedModule
+    SharedModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

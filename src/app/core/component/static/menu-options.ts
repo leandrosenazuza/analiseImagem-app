@@ -8,8 +8,9 @@ export const MenuOptions =
     {
         icon: 'fa fa-question',
         label: 'Dashboard',
-        router: '/dashboard'
+        router: '/dash'
     },
+
     {
         icon: 'fa fa-headphones',
         label: 'Subir e Analisar arquivo',
