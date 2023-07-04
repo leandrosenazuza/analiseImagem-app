@@ -17,8 +17,13 @@ export const MenuOptions =
         router: '/analise'
     },
     {
+      icon: 'fa fa-headphones',
+      label: 'Previsao',
+      router: '/previsao'
+  },
+    {
         icon: 'fa fa-file-text',
-        label: 'Sobre o Projeto',
+        label: 'Sobre os Autores',
         router: '/sobre'
     }
 ]

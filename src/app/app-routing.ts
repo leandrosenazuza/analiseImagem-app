@@ -8,6 +8,9 @@ import { CardComponent } from "./module/funcionalidades/card/card.component";
 
 const APP_ROUTES: Routes = [
   {
+    path: '', component: HomeComponent
+  },
+  {
     path: 'home', component: HomeComponent
   },
   {
